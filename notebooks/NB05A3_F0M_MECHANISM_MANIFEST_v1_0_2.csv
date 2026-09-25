@@ -1,0 +1,6 @@
+condition_id,role,genotype,cell_model,genetic_context,counts_for_clingen_variant_validation,minimum_biological_replicates,min_completed_divisions_per_replicate_primary
+F0M_WT_WT,normal_reference,WT/WT,hTERT-RPE1,endogenous isogenic allelic series,False,4,100
+F0M_L737STAR_WT,lof_heterozygous_context,L737*/WT,hTERT-RPE1,endogenous isogenic allelic series,False,4,100
+F0M_N1002K_WT,missense_isolation,N1002K/WT,hTERT-RPE1,endogenous isogenic allelic series,False,4,100
+F0M_L737STAR_N1002K,compound_test_state,L737*/N1002K,hTERT-RPE1,endogenous isogenic allelic series,False,4,100
+F0M_L737STAR_N1002K_WT_RESCUE,causal_positive_rescue,L737*/N1002K + restored WT BUBR1,hTERT-RPE1,endogenous isogenic allelic series,False,4,100

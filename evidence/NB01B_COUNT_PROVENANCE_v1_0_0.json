@@ -1,0 +1,33 @@
+{
+  "schema": "MVA-NB01B-COUNT-PROVENANCE-1.0",
+  "status": "FROZEN_PUBLIC_AUDIT",
+  "source_notebook": "notebooks/MVA_NB01B_COMPOUND_HET_VARIANT_RANKING_v1_0_0.ipynb",
+  "sanitization_note": "Notebook execution outputs are intentionally stripped from the public release; the counting code, frozen values, and rerun assertions are preserved.",
+  "metrics": {
+    "input_vcf_records": {
+      "value": 5012204,
+      "source": "NB01A preflight handoff consumed by NB01B"
+    },
+    "carried_allele_gene_rows": {
+      "value": 6608298,
+      "formula": "len(variants) after carried-allele + VEP transcript/gene expansion"
+    },
+    "unique_carried_alleles": {
+      "value": 5010482,
+      "formula": "variants['variant_key'].nunique()"
+    },
+    "represented_genes": {
+      "value": 40804,
+      "formula": "variants['gene'].replace('', np.nan).nunique()"
+    },
+    "pair_pool_variants": {
+      "value": 856,
+      "source": "frozen NB01B run"
+    },
+    "candidate_pairs": {
+      "value": 458,
+      "source": "frozen NB01B run"
+    }
+  },
+  "future_rerun_behavior": "NB01B now asserts the three expanded-table counts and writes all three fields into NB01B_HANDOFF.json."
+}

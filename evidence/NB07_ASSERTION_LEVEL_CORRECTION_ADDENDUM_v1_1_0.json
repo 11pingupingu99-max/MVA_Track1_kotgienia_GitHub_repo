@@ -1,0 +1,41 @@
+{
+  "schema": "MVA-NB07-ASSERTION-LEVEL-CORRECTION-1.1.0",
+  "date": "2026-09-23",
+  "track1_ranking_changed": false,
+  "f0_primary_design_changed": false,
+  "r814h": {
+    "variation_id": 6764,
+    "hgvs": "NM_001211.6:c.2441G>A",
+    "protein": "p.Arg814His",
+    "mva1_rcv": "RCV000007160.24",
+    "mva1_status": "Pathogenic/Likely pathogenic; multiple submitters; no conflicts",
+    "vcv_conflict_interpretation": "partly condition aggregation including Premature chromatid separation trait",
+    "f0v_role": "SENSITIVITY_EXPANSION_CONTROL_ONLY",
+    "counts_toward_primary_11": false,
+    "independence_limitation": "shared case literature and functional-evidence/circularity links including PMID 20516114"
+  },
+  "q467h": {
+    "variation_id": 2503511,
+    "scv": "SCV003928079.1",
+    "hgvs": "NM_001211.6:c.1401G>T",
+    "protein": "p.Gln467His",
+    "status": "Likely pathogenic for MVA1 (single submitter)",
+    "mechanism": "splice-mediated; last nucleotide exon 10; submitter RNA evidence supports donor loss",
+    "f0v_role": "EXCLUDE_FROM_CDNA_PROTEIN_FUNCTION_CALIBRATION",
+    "reason": "cDNA bypasses native splicing"
+  },
+  "privacy": {
+    "remote_case_allele_annotation_after_final_review": false,
+    "case_allele": "NM_001211.6:c.3006T>G",
+    "future_annotation": "LOCAL_OFFLINE_ONLY",
+    "raw_vcf_external": false,
+    "alphaGenome_prior_selected_case_variant_use_disclosed": true
+  },
+  "frozen": {
+    "n1002k_holdout": true,
+    "ps3_bs3_assigned": false,
+    "primary_11_controls_unchanged": true,
+    "computational_phase_closed": true
+  },
+  "frozen_clinvar_audit_sha256": "efe69d9e9d30a11fd9494f5bb69fdb55ae2873784a11417d8d960471d3714c72"
+}

@@ -1,0 +1,16 @@
+condition_id,role,variant_label,variation_id,clinical_class,consequence_class,counts_for_clingen_validation,calibration_use,held_out_test,cell_model,assay_architecture,minimum_biological_replicates,min_completed_divisions_per_replicate_primary
+F0V_WT_REFERENCE,basic_normal,WT,,,wild_type,False,QC_REFERENCE,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_ABNORMAL_REFERENCE,basic_abnormal,BUBR1 severe LoF/depletion,,,severe_loss_of_function,False,QC_REFERENCE,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_WT_RESCUE,basic_rescue,WT BUBR1 rescue,,,rescue,False,QC_REFERENCE,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_TEST_N1002K,held_out_test_variant,N1002K,,VUS_TEST,missense,False,HOLDOUT_TEST,True,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_6758,clingen_variant_validation_control,T40M,6758,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_133764,clingen_variant_validation_control,V4M,133764,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_133769,clingen_variant_validation_control,V618A,133769,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_133772,clingen_variant_validation_control,N1004S,133772,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_133780,clingen_variant_validation_control,R349Q,133780,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_B_LB_133782,clingen_variant_validation_control,E390D,133782,B_LB,missense,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_P_LP_6760,clingen_variant_validation_control,R194*,6760,P_LP,truncating,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_P_LP_851299,clingen_variant_validation_control,R120*,851299,P_LP,truncating,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_P_LP_958852,clingen_variant_validation_control,H856fs,958852,P_LP,truncating,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_P_LP_986977,clingen_variant_validation_control,S788fs,986977,P_LP,truncating,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100
+F0V_VAL_P_LP_3577081,clingen_variant_validation_control,R80_Y81ins*,3577081,P_LP,truncating,True,CONTROL_ONLY_CALIBRATION,False,U2OS,BUBR1 depletion + RNAi-resistant BUB1B complementation,4,100

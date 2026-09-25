@@ -1,0 +1,8 @@
+proband_id,chrom_1,pos_1,ref_1,alt_1,chrom_2,pos_2,ref_2,alt_2,epcr,finding_type,notes
+PROBAND01,chr15,40209701,T,G,chr15,40220612,T,G,0.78,primary,BUB1B L737* + N1002K; top-ranked with and without MVA-gene prior; phase unresolved; N1002K remains VUS pending direct function.
+PROBAND01,chr15,40209701,T,G,chr15,40216470,A,G,0.1,primary,BUB1B fallback: L737* plus lower-priority intronic allele; retained only as ranked robustness candidate.
+PROBAND01,chr15,40216470,A,G,chr15,40220612,T,G,0.06,primary,BUB1B fallback: intronic allele + N1002K; weaker than L737*/N1002K.
+PROBAND01,chr7,2164556,A,T,chr7,2225526,G,A,0.03,primary,MAD1L1 alternative pair from phenotype/gene-prior ranking; below BUB1B candidates.
+PROBAND01,chr7,1888280,ATGTGTGTGCATGCATGCGTCTATGTGACTGCCTATGTG,A,chr7,2225526,G,A,0.02,primary,MAD1L1 fallback pair; substantially lower evidence than top BUB1B hypothesis.
+PROBAND01,chr7,2064754,A,G,chr7,2225526,G,A,0.015,primary,MAD1L1 fallback pair; retained for ranked robustness only.
+PROBAND01,chr7,2082156,A,G,chr7,2225526,G,A,0.01,primary,MAD1L1 fallback pair; retained for ranked robustness only.

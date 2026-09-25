@@ -1,0 +1,19 @@
+stratum,gate,frozen_rule,severity
+F0V,biological_replicates,>=4 independent biological replicates,HARD_GATE
+F0V,completed_divisions,>=100 completed divisions per replicate per key condition,HARD_GATE
+F0V,basic_controls,WT/reference + abnormal/severe-LoF + WT rescue present,HARD_GATE
+F0V,validation_controls,At least 11 independently classified mixed B/LB + P/LP controls tested in the same assay class/instance,HARD_GATE
+F0V,control_interpretability,Pre-specified technical QC applied without using N1002K outcome,HARD_GATE
+F0V,moderate_count_after_QC,"ClinGen modeled Moderate can tolerate one validation control with an indeterminate assay readout among 11 total controls; multiple indeterminate/discordant controls trigger downgrade or formal OddsPath analysis, not post-hoc threshold rescue",CLINGEN_ALIGNED_RULE
+F0V,N1002K_holdout,Freeze control-only calibration and QC status before unblinding N1002K,HARD_GATE
+F0V,threshold_tuning,No post-hoc threshold tuning to move N1002K into a preferred class,HARD_GATE
+F0V,consequence_balance,6 B/LB missense vs 5 P/LP truncating; report as material limitation,MATERIAL_LIMITATION
+F0V,truncating_context,cDNA complementation may bypass NMD; truncating controls validate protein-function readout only if technically interpretable,MATERIAL_LIMITATION
+F0M,biological_replicates,>=4 independent biological replicates,HARD_GATE
+F0M,completed_divisions,>=100 completed divisions per replicate per key condition,HARD_GATE
+F0M,primary_endpoint,chromosome missegregation per completed division,HARD_GATE
+F0M,cytostasis_warning,>10% reduction in completed divisions vs matched reference,WARNING
+F0M,selective_killing_warning,>10 percentage-point increase in apoptosis vs matched reference,WARNING
+F0M,phase_dependency,compound-state interpretation remains conditional on parental phase,MATERIAL_LIMITATION
+BOTH,replicate_exclusion,No post-hoc replicate deletion based only on effect direction,HARD_GATE
+BOTH,missing_data,Do not impute failed biological replicates into a passing assay,HARD_GATE
