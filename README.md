@@ -44,7 +44,7 @@ No raw patient WGS/VCF, genotype-scale private tables, identifiers, credentials,
 
 ## AI assistance
 
-**OpenAI ChatGPT** (Plus) was used for **code review and literature evaluation** on sanitized/public project materials. No private patient data were provided to or read by ChatGPT.
+**OpenAI ChatGPT** (Plus) was used for **code review and literature evaluation** on sanitized/public project materials. No private patient data were provided to or read by ChatGPT. Improve the model for everyone: Off
 
 Google DeepMind **AlphaGenome** was used through the official API/client in NB04C for an **orthogonal RNA/cis-regulatory mechanism audit** of the two already-public BUB1B candidate variants (L737* and N1002K). No raw WGS/VCF, genome-wide genotype table, sample identifier, or private genotype dataset was sent to AlphaGenome. This branch was used for mechanism triage only and **did not determine or alter the frozen Track 1 ranking**.
 
